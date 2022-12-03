@@ -23,8 +23,7 @@ namespace PublisherApp
             }
 
             app.UseHttpsRedirection();
-
-            app.UseAuthorization();
+            
 
 
             app.MapControllers();
